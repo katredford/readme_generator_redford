@@ -16,7 +16,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const { title, description, contents, installation, usage, pic, vid, email, github, license } = data
+  const { title, description, contents, installation, use, pic, vid, credit, email, github, license } = data
   var badge = renderLicenseBadge(license)
   return `
   # ${title}
@@ -26,15 +26,19 @@ function generateMarkdown(data) {
    ${contents && contents}
   ${installation && '## Installation'}
   ${installation && installation}
-  ${usage && '##Usage'}
-  ${usage && usage}
-  ${pic && "##Screenshots"}
+  ${use && '## Usage'}
+  ${use && use}
+  ${pic && "## Screenshots"}
   ![Alt text](${data.pic}?raw=true "Title")
-  ${vid && '##Video'}
-  ${vid && vid}
-  ${email && '##Email'}
+  ${vid && '## Video'}
+  ![Alt text](${data.vid}?raw=true "Title")
+  ${credit && '## Credits'}
+  ${credit && credit}
+  ${license && '## License'}
+  ${license && license}
+  ${email && '## Email'}
   ${email && email}
-  ${github && '##github'}
+  ${github && '## github'}
   ${github && github}
 
   

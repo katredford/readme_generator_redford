@@ -23,10 +23,7 @@ const questions = [
         name: 'contents',
         message: "Please list the sections of your README",
         choices: [
-            {
-                name:'contents',
-            },
-
+          
             {
                 name:'usage',
             },
@@ -41,11 +38,14 @@ const questions = [
         ]
     },
     
-      {
-            type: 'input',
-            name: 'installation',
-            message: "how is your application installed?",
-      },
+
+   
+
+    {
+        type: 'input',
+        name: 'installation',
+        message: "how is your application installed?",
+    },
 
       
       {
@@ -60,6 +60,17 @@ const questions = [
         message: "What is your tutorial video's relative path?",
       },
 
+      {
+        type: 'input',
+        name: 'use',
+        message: "what is your application used for?",
+      },
+
+      {
+        type: 'input',
+        name: 'credits',
+        message: "who collaborated on this project?",
+      },
 
       {
         type: 'list',

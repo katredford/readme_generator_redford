@@ -24,6 +24,10 @@ function generateMarkdown(data) {
    ${description} 
    ${contents && '## Contents:'}
    ${contents && contents}
+   ${data.contents.usage && '### Usage'}
+
+   ${data.contents.usage && data.contents.usage}
+   
   ${installation && '## Installation'}
   ${installation && installation}
   ${use && '## Usage'}
@@ -34,8 +38,10 @@ function generateMarkdown(data) {
   ![Alt text](${data.vid}?raw=true "Title")
   ${credit && '## Credits'}
   ${credit && credit}
-  ${license && '## License'}
-  ${license && license}
+  
+  // ${license && '## License'}
+  /// ${license && license}
+  
   ${email && '## Email'}
   ${email && email}
   ${github && '## github'}

@@ -1,31 +1,25 @@
 
-  # the title of the project
+  # ReadME Generator
   ## Description: 
-   this is a project i made, it is awesome 
-   ## Contents:
-   usage,credits,license
-   undefined
+   Make a README file quick and easy! 
 
-   undefined
    
   ## Installation
-  download it, then run it in the terminal
+  download the code, npm install then answer these questions!
   ## Usage
-  to make a readme!
+  making a README file so fast
   ## Screenshots
-  ![Alt text](x?raw=true "Title")
+  ![Alt text](readmeScreenShot.png?raw=true "Title")
   ## Video
-  ![Alt text](x?raw=true "Title")
-  undefined
-  undefined
-  
-  // undefined
-  /// undefined
-  
+
+https://youtu.be/zeA7IQtAr_I
+
   ## Email
   redford@gmail.com
   ## github
   redford@github.com
+
+repo: https://github.com/katredford/readme_generator_redford
 
   
 

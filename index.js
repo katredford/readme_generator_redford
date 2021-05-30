@@ -38,9 +38,6 @@ const questions = [
         ]
     },
     
-
-   
-
     {
         type: 'input',
         name: 'installation',
